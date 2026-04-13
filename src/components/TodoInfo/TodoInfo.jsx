@@ -1,7 +1,7 @@
 import './TodoInfo.scss';
 import { UserInfo } from '../UserInfo/UserInfo';
 
-export const TodoInfo = todo => {
+export const TodoInfo = ({ todo }) => {
   const completed = todo.completed ? '' : 'TodoInfo--completed';
 
   return (
